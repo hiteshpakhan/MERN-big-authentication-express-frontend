@@ -39,7 +39,7 @@ const CreateBlog = () => {
         reverseOrder={false}
       />
       <div className='w-[90vw] lg:w-[60vw] mx-auto mt-10' >
-        <h1 className='text-2xl font-bold text-center'>Create Blog</h1>
+        <h1 className='text-2xl font-bold text-center'>Create Task</h1>
         <form className='flex flex-col gap-3' onSubmit={postData} >
           <lable htmlFor="title" className="font-semibold text-lg" >Title :</lable>
           
